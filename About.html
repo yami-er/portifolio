@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
-    <title>Bootstrap 101 Template</title>
+    <title>Yami's portifolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,25 +15,55 @@
   </head>
     <style>
       body{
-        background-image: url("https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2U1ZjAxNWQxOWM5MjljNjVmZl9CZXRlX0dpeW9yZ2lzX0xhbGliZWxhLmpwZyJdLFsicCIsInRodW1iIiwieDM5MD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d");
+        background-image: url("https://portfolio-ritz.azurewebsites.net/Assets/images/2.jpg");
         background-color:beige;
         background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
         
       }
-      p{color: #fff;
+      img {
+        border-radius: 50%;
+      }
+      p{
         font-size: large;
         text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        color:#daa520 ;
+       
+
       }
-      ul{color:black;
-        list-style-type:circle;
+      ul{color:#000;
+        list-style-type:disc;
         text-align: left;
+        font-weight: 400;
       }
        .card {
-        background-color: rgba(255, 255, 255, 0.212) !important;
+        background-color: rgba(255, 255, 255, 0.37) !important;
+       
+        
       }
-      h1{
+      h1,h3{
         color:#daa520 ;
+        
       } 
+      h4{
+        color:#000;
+        
+      }
+
+      .p-3{
+        background-color:rgba(255, 255, 255, 0.35) !important;
+        color:#000;
+      }
+
+      .p-2{
+       border-radius: 50%;
+
+      }
+
+     
+
       
     </style>
   <body>    
@@ -56,19 +86,24 @@
     </nav>
     <div class="container-fluid">
         <div class = "row">
-            <div class="col-sm-8">
-              <img src="20200112_123908.jpg" class="rounded-circle" alt="Cinque Terre" width="380" height="300" ><br><br>
-              <h1><strong >Hello, I am Yami </strong></h2>
-              <p><strong>Web Developer and Designer</strong></p>
-              <p>Exceptionally creative and dependable Web Developer passionate about helping others and problem-solving. 
-                Knowledgeable in a wide variety of computer languages as well as the principles and techniques of website 
-                construction and maintenance. I never stop learning and  trying to improve myself. </p>
+            <div class="col-sm-4  my-2">
+              <img src="C:\Users\yamer\Desktop\20190428_124409.jpg" width="300" height="350">
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6  my-2">
+              <h1><strong >Hello, I am Yami </strong></h2>
+              <h3><strong>Web Developer and Designer</strong></h3>
+               <p>Exceptionally creative and dependable Web Developer passionate about helping</p>
+               <p>others and problem-solving.Knowledgeable in a wide variety of computer languages</p>
+               <p>as well as the principles and techniques of website construction and maintenance.</p>  
+               <p>I am passionate about technology and never stop trying to improve myself.</p> 
+              <p>Check my contact page to reach out if you have any question or comments.  </p>
+              <p>Thanks</p> 
+            </div>
+            <div class="col-sm-2  my-2">
               <div class="card-deck">
-                <div class="card bg-dark">
+                <div class="card bg-light">
                   <div class="card-body text-center">
-                    <ul class="card-text" ><h3>Expertise</h3> 
+                    <ul class="card-text" ><h4>Expertise</h4> 
                       <li> Java</li> 
                       <li>Javascript</li>
                       <li>JQuery</li> 
@@ -78,12 +113,28 @@
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>BOOTSTRAP</li>
-                  </div>
+                      <li>GITHub</li>
+                      <li>SSMS</li>
+                      <li>JIRA</li>
+                      <li>SSRS</li>
+                      <li>SSIS</li>
+                      
+                    
+                      <hr>
+                    </div>
                 </div>
               </div>
-              
             </div>
-        </div>
-    </div>
+      </div>
+
+       <!-- <div class ="col-sm-12">
+              <p>Exceptionally creative and dependable Web Developer passionate about helping others and problem-solving.</p>
+              <p> Knowledgeable in a wide variety of computer languages as well as the principles and techniques of website 
+                  construction and maintenance.</p>  
+              <p> I am passionate about technology and never stop trying to improve myself.</p> 
+              <p>Check my contact page to reach out if you have any question or comments.  </p>
+              <p>Thanks</p> 
+    </div>    -->
+    
   </body>
 </html>
